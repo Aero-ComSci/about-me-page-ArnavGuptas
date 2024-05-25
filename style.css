@@ -3,8 +3,7 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    background: url("test.png") repeat; /* Specify your image URL here */
+    background-color: linear-gradient(to bottom right, #003366 0%, #66CCFF 100%);;
 }
 
 .sliding-background {
