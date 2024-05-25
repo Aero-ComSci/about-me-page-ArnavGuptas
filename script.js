@@ -1,7 +1,6 @@
 var x=1;
 var y=1;
 var z=1;
-var r=1;
 function Function(){
     x=x+1
     if (x==2){
@@ -44,20 +43,5 @@ function funktion(){
     else{
         document.getElementById("image").style.visibility="hidden";
         document.getElementById("cod").style.color="rgb(0 ,151, 0)";
-    }
-}
-function sad(){
-    r=r+1
-    if (r==2){
-        document.getElementById("portfo").style.visibility="visible";
-        document.getElementById("portfo").className="border";
-        document.getElementById("pdf").style.color="white";
-        r=0;
-    }
-    else{
-        document.getElementById("portfo").style.visibility="hidden";
-        document.getElementById("portfo").className="none";
-        document.getElementById("portfo").innerHTML="Resume";
-        document.getElementById("pdf").style.color="rgb(0, 151, 0)";
     }
 }
