@@ -1,8 +1,26 @@
 html, body {
     margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
     background-color: black;
+}
+
+.sliding-background {
+    background: url("test.png") repeat-x;
+    background-size: cover; /* Ensure the background image covers the whole area */
+    height: 100%; 
+    width: 100%; 
+    animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -150% 0;
+    }
 }
 
 h1 {
@@ -51,23 +69,6 @@ h2:hover {
     border-style: solid;
     border-width: 0 0 0 4px;
     border-color: rgb(183, 153, 39);
-}
-
-.sliding-background {
-    background: url("test.png") repeat-x;
-    height: 100%;
-    width: 100%;
-    animation: slide 60s linear infinite;
-    padding-top: 0;
-}
-
-@keyframes slide {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: -150% 0;
-    }
 }
 
 .ascii {
