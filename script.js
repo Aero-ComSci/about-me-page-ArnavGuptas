@@ -46,7 +46,7 @@ function funktion(){
         document.getElementById("cod").style.color="rgb(0 ,151, 0)";
     }
 }
-funciton sad(){
+function sad(){
     r=r+1
     if (r==2){
         document.getElementById("portfo").style.visibility="visible";
