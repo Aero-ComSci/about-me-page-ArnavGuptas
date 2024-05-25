@@ -85,3 +85,16 @@ h2:hover {
     background: #ffffff;
     color: #ffffff;
 }
+button {
+    background-color: rgb(183, 153, 39);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
