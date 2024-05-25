@@ -49,13 +49,15 @@ function funktion(){
 funciton sad(){
     r=r+1
     if (r==2){
-        document.getElementById("portfo").style.visibility="visible"
+        document.getElementById("portfo").style.visibility="visible";
+        document.getElementById("portfo").className="border";
         document.getElementById("pdf").style.color="white";
         r=0;
     }
     else{
         document.getElementById("portfo").style.visibility="hidden";
-        document.getElementById("pdf").style.color="rgb(0 ,151, 0)";
+        document.getElementById("portfo").className="none";
+        document.getElementById("portfo").innerHTML="Resume";
+        document.getElementById("pdf").style.color="rgb(0, 151, 0)";
     }
-}
 }
