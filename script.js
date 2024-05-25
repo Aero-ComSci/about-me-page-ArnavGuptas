@@ -2,22 +2,7 @@ var x = 1;
 var y = 1;
 var z = 1;
 
-function toggleSection(sectionId, headerId) {
-    var section = document.getElementById(sectionId);
-    var header = document.getElementById(headerId);
-
-    if (section.style.visibility === "hidden") {
-        section.style.visibility = "visible";
-        section.className = "border";
-        header.style.color = "white";
-    } else {
-        section.style.visibility = "hidden";
-        section.className = "none";
-        header.style.color = "rgb(0, 151, 0)";
-    }
-}
-
-function Function(){
+function Function() {
     x++;
     if (x % 2 === 0) {
         document.getElementById("attribute").style.visibility = "visible";
@@ -27,7 +12,7 @@ function Function(){
     } else {
         document.getElementById("attribute").style.visibility = "hidden";
         document.getElementById("attribute").className = "none";
-        document.getElementById("attribute").innerHTML = "Strength, Quality, and Achievements";
+        document.getElementById("attribute").innerHTML = "Strengths, Qualities, and Achievements";
         document.getElementById("anchovies").style.color = "rgb(0, 151, 0)";
     }
 }
@@ -35,14 +20,14 @@ function Function(){
 function funkytion() {
     y++;
     if (y % 2 === 0) {
-        document.getElementById("achievements").style.visibility = "visible";
-        document.getElementById("achievements").innerHTML = "As a focused and dedicated student, I have honed my problem-solving skills to tackle challenges head-on. My ability to listen and understand has not only enriched my learning experience but also fostered meaningful relationships with peers and mentors. My effective communication skills have been instrumental in expressing my ideas clearly and persuasively, contributing to successful team projects and presentations. In addition to this, I possess many positive qualities that set me apart. I am adaptable, resilient, and always eager to learn. My continuous improvement allows me to adapt to many situations. Whether it’s academic pursuits or extracurricular activities, I bring a level of enthusiasm and dedication that transforms every opportunity into a stepping stone for future success.";
-        document.getElementById("achievements").className = "border";
+        document.getElementById("acheivements").style.visibility = "visible";
+        document.getElementById("acheivements").innerHTML = "As a focused and dedicated student, I have honed my problem-solving skills to tackle challenges head-on. My ability to listen and understand has not only enriched my learning experience but also fostered meaningful relationships with peers and mentors. My effective communication skills have been instrumental in expressing my ideas clearly and persuasively, contributing to successful team projects and presentations. In addition to this, I possess many positive qualities that set me apart. I am adaptable, resilient, and always eager to learn. My continuous improvement allows me to adapt to many situations. Whether it’s academic pursuits or extracurricular activities, I bring a level of enthusiasm and dedication that transforms every opportunity into a stepping stone for future success.";
+        document.getElementById("acheivements").className = "border";
         document.getElementById("salmon").style.color = "white";
     } else {
-        document.getElementById("achievements").style.visibility = "hidden";
-        document.getElementById("achievements").className = "none";
-        document.getElementById("achievements").innerHTML = "About Me";
+        document.getElementById("acheivements").style.visibility = "hidden";
+        document.getElementById("acheivements").className = "none";
+        document.getElementById("acheivements").innerHTML = "About Me";
         document.getElementById("salmon").style.color = "rgb(0, 151, 0)";
     }
 }
@@ -50,10 +35,10 @@ function funkytion() {
 function funktion() {
     z++;
     if (z % 2 === 0) {
-        document.getElementById("certifications").style.visibility = "visible";
+        document.getElementById("image").style.visibility = "visible";
         document.getElementById("cod").style.color = "white";
     } else {
-        document.getElementById("certifications").style.visibility = "hidden";
+        document.getElementById("image").style.visibility = "hidden";
         document.getElementById("cod").style.color = "rgb(0, 151, 0)";
     }
 }
