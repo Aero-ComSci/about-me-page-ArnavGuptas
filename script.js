@@ -42,3 +42,13 @@ function funktion() {
         document.getElementById("cod").style.color = "rgb(0, 151, 0)";
     }
 }
+var resumeVisible = false;
+function toggleResume() {
+    var resume = document.getElementById("resume");
+    if (resumeVisible) {
+        resume.style.display = "none";
+    } else {
+        resume.style.display = "block";
+    }
+    resumeVisible = !resumeVisible;
+}
