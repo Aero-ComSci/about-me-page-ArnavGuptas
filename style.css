@@ -78,4 +78,14 @@ br{
     font-weight: bolder;
     font-size: medium;
     border-width: 0px 0px 0px 0px;
+    display: inline-block;
+    padding: .25em 0;
+    background: #ffffff;
+    color: #ffffff;
+}
+.highlight{
+    display: inline-block;
+    padding: .25em 0;
+    background: #ffffff;
+    color: #ffffff;
 }
