@@ -1,6 +1,6 @@
-var x=0;
-var y=0;
-var z=0
+var x=1;
+var y=1;
+var z=1;
 function Function(){
     x=x+1
     if (x==2){
